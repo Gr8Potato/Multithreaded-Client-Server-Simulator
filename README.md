@@ -7,7 +7,7 @@ This program simulates a multithreaded server processing jobs which are also cre
 ### Compilation-Execution
 The GNU C Compiler can be used to compile this program. The following syntax is listed below.
 
-`gcc MCSS.c -o <exe_name> -lrt -lpthread`.
+`gcc MTCSS.c -o <exe_name> -lrt -lpthread`.
 
 Once the program is ready for execution, the following command can be used to run the program:
 
