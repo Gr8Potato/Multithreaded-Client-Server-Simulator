@@ -13,9 +13,11 @@ Once the program is ready for execution, the following command can be used to ru
 
 `<executable_path> <client_thread_count> <server_thread_count> <job_pool_size> <total_jobs> <processing_time_ms>`
 
-Once the program has been ran, `service.log` will be created which can be accessed with the following command:
-
+Once the program has completed you'll see the prameters you provided as well as the number of jobs each indivudal client/server thread has made/processed. Furthermore, `service.log` will have been created which can be accessed with the following command:
 `cat service.log`
+
+Each entry in `service.log` contains entries in the following format.
+`<timestamp (in_nanoseconds)> <thread_type_(“client”_or_“server”)> <thread_id> <job_pool_entry_index> <job_id>.`
 
 > [!CAUTION]
 > I do not support people plagiarizing my code. I do not take responsibility for the unlawful actions of others.
