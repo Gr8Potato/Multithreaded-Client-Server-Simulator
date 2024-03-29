@@ -17,6 +17,7 @@ Once the program has completed you'll see the prameters you provided as well as 
 `cat service.log`
 
 Each entry in `service.log` contains entries in the following format.
+
 `<timestamp (in_nanoseconds)> <thread_type_(“client”_or_“server”)> <thread_id> <job_pool_entry_index> <job_id>.`
 
 > [!CAUTION]
